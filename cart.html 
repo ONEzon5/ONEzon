@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سلة المنتجات - ONEzon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 سلة المنتجات</h1>
+    <div id="cartItems">
+      <!-- عناصر السلة ستُعرض هنا -->
+    </div>
+    <p id="totalPrice">المجموع الكلي: 0 جنيه</p>
+    <button onclick="confirmOrder()">إتمام الطلب</button>
+    <a href="index.html" class="btn">العودة للرئيسية</a>
+  </div>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>

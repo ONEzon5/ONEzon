@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تسجيل الدخول - ONEzon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>تسجيل الدخول إلى ONEzon</h1>
+
+    <form id="loginForm">
+      <label for="method">اختر طريقة التسجيل:</label>
+      <select id="method" name="method">
+        <option value="phone">برقم الهاتف</option>
+        <option value="email">بالبريد الإلكتروني</option>
+      </select>
+
+      <div id="phoneSection" class="input-section">
+        <label for="phone">رقم الهاتف:</label>
+        <input type="tel" id="phone" name="phone" placeholder="مثال: 2499xxxxxxx" />
+        <button type="button" onclick="sendCode()">إرسال رمز التأكيد</button>
+        <input type="text" id="code" placeholder="رمز التأكيد" />
+      </div>
+
+      <div id="emailSection" class="input-section" style="display: none;">
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" />
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <button type="submit">تسجيل الدخول / إنشاء حساب</button>
+    </form>
+
+    <a href="index.html" class="btn">العودة للرئيسية</a>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

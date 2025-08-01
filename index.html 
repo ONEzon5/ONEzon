@@ -2,16 +2,17 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ONEzon | مرحبًا بك</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ONEzon</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>مرحبًا بك في منصة ONEzon</h1>
-    <button onclick="goToCart()">إتمام الطلب</button>
-  </div>
+    <h1>ONEzon</h1>
+    <p class="welcome-message">مرحبًا بك في ONEzon – منصتك للتسوق داخل السودان!</p>
 
-  <script src="js/main.js"></script>
+    <!-- زر الدخول -->
+    <a href="login.html" class="btn">تسجيل الدخول / إنشاء حساب</a>
+  </div>
 </body>
 </html>

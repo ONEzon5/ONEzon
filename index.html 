@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="ar">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ONEzon</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <h1>ONEzon</h1>
-    <p class="welcome-message">مرحبًا بك في ONEzon – منصتك للتسوق داخل السودان!</p>
-
-    <!-- زر الدخول -->
-    <a href="login.html" class="btn">تسجيل الدخول / إنشاء حساب</a>
-  </div>
-</body>
-</html>
+  <head>
+      <meta charset="UTF-8" />
+          <title>ONEzon</title>
+              <link rel="stylesheet" href="style.css" />
+                </head>
+                  <body>
+                      <h1>ONEzon</h1>
+                          <p class="welcome-message">مرحبًا بك في ONEzon، منصتك السودانية للتسوق الإلكتروني</p>
+                              <div class="auth-buttons">
+                                    <a href="login.html" class="btn">تسجيل الدخول</a>
+                                          <a href="register.html" class="btn">تسجيل حساب جديد</a>
+                                              </div>
+                                                </body>
+                                                </html>
+                                                
